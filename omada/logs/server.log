@@ -1,0 +1,148 @@
+06-06-2023 09:00:25.748 INFO [main] [] c.t.s.o.s.OmadaLinuxMain(): record: start the omada controller
+06-06-2023 09:00:25.769 INFO [main] [] c.t.s.o.s.OmadaLinuxMain(): record: set property finished
+06-06-2023 09:00:25.983 INFO [main] [] c.t.s.o.s.OmadaLinuxMain(): record: configure log finished
+06-06-2023 09:00:26.043 INFO [log4j-thread] [] c.t.s.o.c.o.a.b(): success to load configuration omada.properties
+06-06-2023 09:00:26.044 INFO [main] [] c.t.s.o.s.OmadaBootstrap(): record: bootstrap prepare
+06-06-2023 09:00:26.045 INFO [log4j-thread] [] c.t.s.o.c.o.OmadacType(): omadacType: Local Controller
+06-06-2023 09:00:26.197 INFO [main] [] c.t.s.o.s.OmadaBootstrap(): going to start local mongod.
+06-06-2023 09:00:46.798 INFO [main] [] c.t.s.o.s.s.b(): mongodb process id is 128
+06-06-2023 09:00:46.802 ERROR [main] [] c.t.s.f.c.FacadeUtils(): facadeMsgEnable is not enable, msg: Mongo DB server started
+06-06-2023 09:00:46.823 INFO [main] [] c.t.s.o.s.s.b(): Mongo DB server started
+06-06-2023 09:00:48.358 INFO [main] [] c.t.s.o.s.OmadaBootstrap(): record: bootstrap record finished
+06-06-2023 09:00:48.358 INFO [main] [] c.t.s.o.s.OmadaBootstrap(): record: bootstrap startup
+06-06-2023 09:00:48.630 INFO [main] [] c.t.s.o.s.OmadaBootstrap(): record: start run omada tasks
+06-06-2023 09:00:48.631 INFO [main] [] c.t.s.o.s.t.SpringBootStartUpTask(): record: task SpringBootStartupTask start
+06-06-2023 09:00:49.850 INFO [main] [] c.t.s.o.s.OmadaLinuxMain(): Starting OmadaLinuxMain v5.9.31 using Java 17.0.6 on serv1 with PID 1 (/opt/tplink/EAPController/lib/local-starter-5.9.31.jar started by omada in /opt/tplink/EAPController/lib)
+06-06-2023 09:00:49.853 INFO [main] [] c.t.s.o.s.OmadaLinuxMain(): No active profile set, falling back to 1 default profile: "default"
+06-06-2023 09:00:59.377 WARN [main] [] o.s.d.c.CustomConversions(): Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+06-06-2023 09:01:02.835 WARN [main] [] o.s.d.c.CustomConversions(): Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+06-06-2023 09:01:07.675 INFO [main] [] c.t.s.l.c.s.d.CacheLogConsumeHandler(): log mq consume task is start...
+06-06-2023 09:01:07.678 INFO [main] [] c.t.s.o.s.OmadaLinuxMain(): Started OmadaLinuxMain in 18.782 seconds (JVM running for 50.828)
+06-06-2023 09:01:07.845 INFO [main] [] c.t.s.o.m.d.p.b.a(): manager maintenance Handling event: org.springframework.boot.context.event.ApplicationStartedEvent[source=org.springframework.boot.SpringApplication@72d4eb42]
+06-06-2023 09:01:07.874 INFO [main] [] c.t.s.o.l.p.c.c.b.b(): Handling event: org.springframework.boot.context.event.ApplicationStartedEvent[source=org.springframework.boot.SpringApplication@72d4eb42]
+06-06-2023 09:01:07.928 INFO [main] [] c.t.s.o.c.p.s.e(): Handling event: org.springframework.boot.context.event.ApplicationStartedEvent[source=org.springframework.boot.SpringApplication@72d4eb42]
+06-06-2023 09:01:07.944 INFO [main] [] c.t.s.o.s.t.SpringBootStartUpTask(): record: task SpringBootStartupTask finished
+06-06-2023 09:01:07.944 INFO [main] [] c.t.s.o.s.t.OmadacInitTask(): record: before OmadacInitTask
+06-06-2023 09:01:07.967 INFO [main] [] c.t.s.o.s.t.OmadacInitTask(): record: before init bean
+06-06-2023 09:01:08.889 INFO [main] [] c.t.s.e.s.c.c(): start schedule remove expire device... period = 10
+06-06-2023 09:01:08.895 INFO [main] [] c.t.s.e.s.c.c(): update rateLimiterCache, permitsPerSecond = 5.0
+06-06-2023 09:01:09.071 INFO [main] [] c.t.s.o.m.d.p.t.TransportConfiguration(): manager workGroup core thread  num is 16, max thread num is 16
+06-06-2023 09:01:09.134 INFO [main] [] c.t.s.o.m.d.d.m.m.c.DeviceMsgConfig(): setMsgThreadPool thread coreSize is 48, maxSize is 48,queue size is 4500
+06-06-2023 09:01:10.771 INFO [main] [] c.t.s.o.m.d.p.t.TransportConfiguration(): upgradeSendReq workGroup core thread num is 1, max thread num is 1
+06-06-2023 09:01:12.022 INFO [main] [] c.t.s.o.m.c.d.m.s.w.s.c.WirelessGroupConfig(): ssidWorkerGroup thread size is 48, queue size is 1500
+06-06-2023 09:01:13.872 INFO [main] [] c.t.s.o.s.t.OmadacInitTask(): record: after init bean
+06-06-2023 09:01:13.994 INFO [main] [] c.t.s.o.s.d.a(): Db unchanged. No need to compatible or init data.
+06-06-2023 09:01:14.136 INFO [main] [] c.t.s.o.s.t.OmadacInitTask(): succeed get default omadac OmadacVO(id=ea05e0ea6026f2f54adef31adc7f45ab, name=Debian_Controller)
+06-06-2023 09:01:14.209 INFO [main] [] c.t.s.o.s.t.OmadacInitTask(): record: before init for hwc
+06-06-2023 09:01:14.209 INFO [main] [] c.t.s.o.s.t.OmadacInitTask(): record: after init for hwc
+06-06-2023 09:01:14.596 WARN [https-jsse-nio-8043-exec-5] [] o.s.d.c.CustomConversions(): Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+06-06-2023 09:01:14.621 WARN [https-jsse-nio-8043-exec-5] [] o.s.d.c.CustomConversions(): Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+06-06-2023 09:01:15.365 INFO [main] [] c.t.s.o.d.g.c.f.b.c(): file download mq consume task is start...
+06-06-2023 09:01:15.613 INFO [main] [] c.t.s.o.m.d.p.t.TransportConfiguration(): adopt workGroup core thread num is 8, max thread num is8
+06-06-2023 09:01:15.850 INFO [main] [] c.t.s.o.m.d.p.t.TransportConfiguration(): discovery workGroup core thread num is 2, max thread num is 10
+06-06-2023 09:01:15.896 INFO [main] [] c.t.s.o.m.l.p.e.LicenseEventCenterProperties(): licenseManagerTopic: omada.cloud.license.prd.topics
+06-06-2023 09:01:16.036 INFO [main] [] c.t.s.o.d.g.c.d.ThreadConfiguration(): device-gateway datatrack workGroup core thread  num is 96, max thread num is 96
+06-06-2023 09:01:16.079 INFO [main] [] c.t.s.o.c.p.c.o.s.ActiveSiteCacheImpl(): Scheduled ActiveSitesCache period flush buf task at fixed rate of 30000 millis.
+06-06-2023 09:01:16.454 INFO [main] [] c.t.s.o.p.p.r.a.c(): init nioEventLoopGroup
+06-06-2023 09:01:17.955 INFO [main] [] c.t.s.r.p.b(): register rtty message Topic: omada.rtty.message, groupId: omada-rtty-message, handler: com.tplink.smb.rtty.proxy.a.b@4eb6d757
+06-06-2023 09:01:17.955 INFO [main] [] c.t.s.r.p.b(): register rtty message Topic: omada.rtty.manager, groupId: omada-rtty-manager, handler: com.tplink.smb.rtty.proxy.a.a@16614fa3
+06-06-2023 09:01:18.467 INFO [main] [] c.t.s.o.d.g.c.d.ThreadConfiguration(): device-gateway datatrack time task workGroup core thread  num is 96, max thread num is 96
+06-06-2023 09:01:22.758 INFO [main] [] c.t.s.o.p.b.a.c(): DisconnectRequestServer start
+06-06-2023 09:01:23.179 INFO [main] [] c.t.s.o.s.d.a(): record: after OmadacInitTask
+06-06-2023 09:01:23.179 INFO [main] [] c.t.s.o.s.t.CloudStartUpTask(): record: CloudStartUpTask start
+06-06-2023 09:01:23.180 INFO [main] [] c.t.s.o.s.t.CloudStartUpTask(): record: CloudStartUpTask finished
+06-06-2023 09:01:23.180 INFO [main] [] c.t.s.o.s.t.OmadacDiscoveryStartUpTask(): record: OmadacDiscoveryStartUpTask start
+06-06-2023 09:01:23.180 INFO [main] [] c.t.s.o.s.t.OmadacDiscoveryStartUpTask(): record: OmadacDiscoveryStartUpTask finished
+06-06-2023 09:01:23.439 INFO [main] [] c.t.s.o.d.g.a(): startServers, DISCOVERY host:null.
+06-06-2023 09:01:23.441 INFO [main] [] c.t.s.o.d.g.a(): discovery Port is 29810.
+06-06-2023 09:01:23.441 INFO [main] [] c.t.s.o.d.g.a(): manage    port v1 is 29811.
+06-06-2023 09:01:23.441 INFO [main] [] c.t.s.o.d.g.a(): manage    port v2 is 29814.
+06-06-2023 09:01:23.441 INFO [main] [] c.t.s.o.d.g.a(): adopt     port v1 is 29812.
+06-06-2023 09:01:23.441 INFO [main] [] c.t.s.o.d.g.a(): upgrade   port is 29813.
+06-06-2023 09:01:23.441 INFO [main] [] c.t.s.o.d.g.a(): transfer  port is 29815.
+06-06-2023 09:01:23.441 INFO [main] [] c.t.s.o.d.g.a(): rtty port is 29816.
+06-06-2023 09:01:23.502 INFO [main] [] c.t.s.e.t.a.t.AbstractServer(): Start NettyUdpServer bind /0.0.0.0:29810, export localhost/127.0.0.1:29810
+06-06-2023 09:01:23.517 INFO [main] [] c.t.s.e.t.n.NettyTcpServer(): TCP server /0.0.0.0:29812 global traffic shaping, writeLimit: 536870912, readLimit: 0, checkInterval: 1000, max wait time: 15000
+06-06-2023 09:01:23.537 INFO [main] [] c.t.s.e.t.a.t.AbstractServer(): Start NettyTcpServer bind /0.0.0.0:29812, export localhost/127.0.0.1:29812
+06-06-2023 09:01:23.574 INFO [main] [] c.t.s.e.t.n.NettyTcpServer(): TCP server /0.0.0.0:29811 global traffic shaping, writeLimit: 536870912, readLimit: 0, checkInterval: 1000, max wait time: 15000
+06-06-2023 09:01:23.575 INFO [main] [] c.t.s.e.t.a.t.AbstractServer(): Start NettyTcpServer bind /0.0.0.0:29811, export localhost/127.0.0.1:29811
+06-06-2023 09:01:23.579 INFO [main] [] c.t.s.e.t.n.NettyTcpServer(): TCP server /0.0.0.0:29813 global traffic shaping, writeLimit: 536870912, readLimit: 0, checkInterval: 1000, max wait time: 15000
+06-06-2023 09:01:23.581 INFO [main] [] c.t.s.e.t.a.t.AbstractServer(): Start NettyTcpServer bind /0.0.0.0:29813, export localhost/127.0.0.1:29813
+06-06-2023 09:01:23.585 INFO [main] [] c.t.s.e.t.n.NettyTcpServer(): TCP server /0.0.0.0:29814 global traffic shaping, writeLimit: 536870912, readLimit: 0, checkInterval: 1000, max wait time: 15000
+06-06-2023 09:01:23.586 INFO [main] [] c.t.s.e.t.a.t.AbstractServer(): Start NettyTcpServer bind /0.0.0.0:29814, export localhost/127.0.0.1:29814
+06-06-2023 09:01:23.590 INFO [main] [] c.t.s.e.t.n.NettyTcpServer(): TCP server /0.0.0.0:29815 global traffic shaping, writeLimit: 536870912, readLimit: 0, checkInterval: 1000, max wait time: 15000
+06-06-2023 09:01:23.591 INFO [main] [] c.t.s.e.t.a.t.AbstractServer(): Start NettyTcpServer bind /0.0.0.0:29815, export localhost/127.0.0.1:29815
+06-06-2023 09:01:23.598 INFO [main] [] c.t.s.e.t.a.t.AbstractServer(): Start RttyNettyTcpServer bind /0.0.0.0:29816, export localhost/127.0.0.1:29816
+06-06-2023 09:01:23.598 ERROR [main] [] c.t.s.f.c.FacadeUtils(): facadeMsgEnable is not enable, msg: Device connector server started.
+06-06-2023 09:01:23.599 ERROR [main] [] c.t.s.f.c.FacadeUtils(): facadeMsgEnable is not enable, msg: Omada Controller started
+06-06-2023 09:01:23.599 INFO [main] [] c.t.s.o.s.t.SuccessExitTask(): Omada Controller started
+06-06-2023 09:01:23.599 INFO [main] [] c.t.s.o.s.OmadaBootstrap(): record: finished run omada tasks
+06-06-2023 09:01:23.848 INFO [comm-pool-6] [] c.t.s.o.s.t.CloudStartUpTask(): start cloud connect on a reset hwc
+06-06-2023 09:01:23.876 INFO [Thread-6] [] c.t.e.c.c.CloudClient(): CloudClient is started.
+06-06-2023 09:01:23.876 INFO [Thread-6] [] c.t.e.c.c.CloudClient(): Connect SEF server automatically.
+06-06-2023 09:01:25.636 INFO [Thread-6] [] c.t.e.c.c.n(): The result of connection is true, service host is n-device-omada.tplinkcloud.com, port is 443.
+06-06-2023 09:01:25.637 INFO [Thread-6] [] c.t.e.c.c.CloudClient(): Close connection to SEF server.
+06-06-2023 09:01:25.638 INFO [Thread-9] [] c.t.e.c.c.n(): ssl recv thread is stopped.
+06-06-2023 09:01:25.662 INFO [Thread-6] [] c.t.e.c.c.CloudClient(): Connect service server automatically, ConnectionType is PERSISTENT_CONNECTION.
+06-06-2023 09:01:25.662 INFO [Thread-6] [] c.t.e.c.c.q(): set connection status: CONNECTING
+06-06-2023 09:01:25.928 INFO [discovery-work-group-0] [] c.t.s.o.m.d.d.m.d.a(): MANAGED_BY_OWN Device 9C-A2-F4-D8-1E-E0 on omadac ea05e0ea6026f2f54adef31adc7f45ab is discoveried.
+06-06-2023 09:01:26.173 INFO [Thread-6] [] c.t.e.c.c.q(): set connection status: CONNECTED
+06-06-2023 09:01:26.173 INFO [Thread-6] [] c.t.e.c.c.q(): The result of connection is true.
+06-06-2023 09:01:30.475 INFO [server-comm-pool-2] [] c.t.s.e.s.a.b.e(): serverType from channel: /192.168.0.20:29814 -> /192.168.0.3:46060 is MANAGE
+06-06-2023 09:01:30.934 INFO [adopt-work-group-4] [] c.t.s.o.m.d.d.m.d.a.I(): Ap OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) SiteId(64144d8bfb75840c9b3cf901) DeviceMac(9C-A2-F4-D8-1E-E0) adopt[auto=true] ok
+06-06-2023 09:01:30.982 INFO [adopt-work-group-4] [] c.t.s.o.m.d.d.m.a.c(): send empty setting to OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) DeviceMac(9C-A2-F4-D8-1E-E0)
+06-06-2023 09:01:31.146 INFO [manage-work-group-2] [] c.t.s.o.m.d.p.t.c(): Device 9C-A2-F4-D8-1E-E0 OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) changed to status CONNECTED, which don't need to handle.
+06-06-2023 09:01:31.255 INFO [server-comm-pool-7] [] c.t.s.o.m.d.d.m.i.a(): got first inform of OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) DeviceMac(9C-A2-F4-D8-1E-E0)
+06-06-2023 09:01:31.277 INFO [manage-work-group-3] [] c.t.s.o.m.d.d.m.i.d(): first inform send same version config to OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) DeviceMac(9C-A2-F4-D8-1E-E0)
+06-06-2023 09:01:31.340 INFO [discovery-work-group-1] [] c.t.s.o.m.d.d.m.d.a(): MANAGED_BY_OWN Device 1C-61-B4-FC-69-45 on omadac ea05e0ea6026f2f54adef31adc7f45ab is discoveried.
+06-06-2023 09:01:31.380 INFO [manage-work-group-4] [] c.t.s.o.m.d.d.m.d.a.T(): syncConfigurationForSameVersion to OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) DeviceMac(9C-A2-F4-D8-1E-E0), result:SendDeviceMsgResult(success=true, deviceResponse=BaseConfigRespBody(sequenceId=1, errcode=0, configVersion=null, additionalProperties={}))
+06-06-2023 09:01:32.025 INFO [discovery-work-group-1] [] c.t.s.o.m.d.d.m.d.a(): MANAGED_BY_OWN Device 9C-A2-F4-D8-1E-62 on omadac ea05e0ea6026f2f54adef31adc7f45ab is discoveried.
+06-06-2023 09:01:32.134 INFO [server-comm-pool-14] [] c.t.s.e.s.a.b.e(): serverType from channel: /192.168.0.20:29814 -> /192.168.0.2:38291 is MANAGE
+06-06-2023 09:01:32.228 INFO [adopt-work-group-4] [] c.t.s.o.m.d.d.m.d.a.I(): Ap OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) SiteId(64144d8bfb75840c9b3cf901) DeviceMac(9C-A2-F4-D8-1E-62) adopt[auto=true] ok
+06-06-2023 09:01:32.240 INFO [adopt-work-group-4] [] c.t.s.o.m.d.d.m.a.c(): send empty setting to OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) DeviceMac(9C-A2-F4-D8-1E-62)
+06-06-2023 09:01:32.324 INFO [manage-work-group-7] [] c.t.s.o.m.d.p.t.c(): Device 9C-A2-F4-D8-1E-62 OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) changed to status CONNECTED, which don't need to handle.
+06-06-2023 09:01:32.372 INFO [server-comm-pool-19] [] c.t.s.o.m.d.d.m.i.a(): got first inform of OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) DeviceMac(9C-A2-F4-D8-1E-62)
+06-06-2023 09:01:32.385 INFO [manage-work-group-8] [] c.t.s.o.m.d.d.m.i.d(): first inform send same version config to OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) DeviceMac(9C-A2-F4-D8-1E-62)
+06-06-2023 09:01:32.441 INFO [manage-work-group-9] [] c.t.s.o.m.d.d.m.d.a.T(): syncConfigurationForSameVersion to OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) DeviceMac(9C-A2-F4-D8-1E-62), result:SendDeviceMsgResult(success=true, deviceResponse=BaseConfigRespBody(sequenceId=1, errcode=0, configVersion=null, additionalProperties={}))
+06-06-2023 09:01:35.508 INFO [server-comm-pool-21] [] c.t.s.e.s.a.b.e(): serverType from channel: /192.168.0.20:29814 -> /192.168.0.1:34798 is MANAGE
+06-06-2023 09:01:39.054 INFO [adopt-work-group-1] [] c.t.s.o.m.d.d.m.d.c.c(): Gateway OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) SiteId(64144d8bfb75840c9b3cf901) DeviceMac(1C-61-B4-FC-69-45) adopt[auto=true] ok
+06-06-2023 09:01:39.474 INFO [adopt-work-group-1] [] c.t.s.o.m.d.d.m.a.c(): send empty setting to OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) DeviceMac(1C-61-B4-FC-69-45)
+06-06-2023 09:01:41.788 WARN [log-device-inform-work-group-0] [] c.t.s.o.l.d.m.l.g(): Ignore unknown log type:  OTHER      from device: 9C-A2-F4-D8-1E-E0
+06-06-2023 09:01:42.191 INFO [manage-work-group-13] [] c.t.s.o.m.d.p.t.c(): Device 1C-61-B4-FC-69-45 OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) changed to status CONNECTED, which don't need to handle.
+06-06-2023 09:01:42.852 WARN [log-device-inform-work-group-1] [] c.t.s.o.l.d.m.l.g(): Ignore unknown log type:  OTHER      from device: 9C-A2-F4-D8-1E-62
+06-06-2023 09:01:43.793 INFO [server-comm-pool-28] [] c.t.s.o.m.d.d.m.i.a(): got first inform of OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) DeviceMac(1C-61-B4-FC-69-45)
+06-06-2023 09:01:43.813 INFO [manage-work-group-1] [] c.t.s.o.m.d.d.m.i.e(): first inform no need send full config to OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) DeviceMac(1C-61-B4-FC-69-45)
+06-06-2023 09:01:43.817 WARN [manage-work-group-1] [] c.t.s.o.m.d.d.m.m.s.e(): fill set msg body but all setting null, skip send set msg to OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) DeviceMac(1C-61-B4-FC-69-45)
+06-06-2023 09:01:43.817 WARN [manage-work-group-1] [] c.t.s.o.m.d.d.m.m.s.e(): failed to genConfigBodyAndAddVersion with keys:[]
+06-06-2023 09:01:43.818 INFO [manage-work-group-1] [] c.t.s.o.m.d.d.m.d.c.A(): syncConfigurationForSameVersion to OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) DeviceMac(1C-61-B4-FC-69-45), result:SendDeviceMsgResult(success=false, deviceResponse=null)
+06-06-2023 09:01:56.177 INFO [check-update-work-group-0] [] c.t.s.o.m.c.f(): Start sync Cloud Users OmadacId(ea05e0ea6026f2f54adef31adc7f45ab).
+06-06-2023 09:01:56.384 INFO [check-update-work-group-0] [] c.t.s.o.m.c.f(): Start checking last firmwares of managed devices.
+06-06-2023 09:01:56.386 INFO [check-update-work-group-0] [] c.t.s.o.m.c.b(): Checking Device Last Firmware...
+06-06-2023 09:01:57.796 INFO [check-update-work-group-0] [] c.t.s.o.m.c.f(): Checking last firmwares of managed devices succeed.
+06-06-2023 09:02:10.509 INFO [client-schedule-statistic-task-0] [] c.t.s.o.c.d.a.l(): [STAT] {"wiredClients":0,"statName":"ClientStatInfo","authedClients":0,"wirelessClients":1}
+06-06-2023 09:02:23.275 INFO [monitor-topology-pool-0] [] c.t.s.o.c.u.d.a(): list local interface macs: [02-42-09-29-BC-7B, 02-42-13-47-4B-57, 7A-79-19-0E-37-9F, 4C-D9-8F-C9-16-6D, 4C-D9-8F-C9-16-71, 4C-D9-8F-C9-16-70]
+06-06-2023 09:06:23.175 INFO [comm-pool-15] [] c.t.s.o.l.c.a.a(): Start pushing connected devices.
+06-06-2023 09:08:20.003 INFO [pool-4-thread-1] [] c.t.s.e.s.c.c(): [STAT] {"statName":"OmadaDeviceStat","deviceType":"gateway","ecspVer":"2.2.0","deviceNum":"1"}
+06-06-2023 09:08:20.004 INFO [pool-4-thread-1] [] c.t.s.e.s.c.c(): [STAT] {"statName":"OmadaDeviceStat","deviceType":"ap","ecspVer":"2.3.0","deviceNum":"2"}
+06-06-2023 09:08:23.202 INFO [monitor-topology-pool-0] [] c.t.s.o.c.u.d.a(): list local interface macs: [02-42-09-29-BC-7B, 02-42-13-47-4B-57, 7A-79-19-0E-37-9F, 4C-D9-8F-C9-16-6D, 4C-D9-8F-C9-16-71, 4C-D9-8F-C9-16-70]
+06-06-2023 09:14:23.198 INFO [monitor-topology-pool-0] [] c.t.s.o.c.u.d.a(): list local interface macs: [02-42-09-29-BC-7B, 02-42-13-47-4B-57, 7A-79-19-0E-37-9F, 4C-D9-8F-C9-16-6D, 4C-D9-8F-C9-16-71, 4C-D9-8F-C9-16-70]
+06-06-2023 09:20:23.198 INFO [monitor-topology-pool-0] [] c.t.s.o.c.u.d.a(): list local interface macs: [02-42-09-29-BC-7B, 02-42-13-47-4B-57, 7A-79-19-0E-37-9F, 4C-D9-8F-C9-16-6D, 4C-D9-8F-C9-16-71, 4C-D9-8F-C9-16-70]
+06-06-2023 09:26:23.205 INFO [monitor-topology-pool-0] [] c.t.s.o.c.u.d.a(): list local interface macs: [02-42-09-29-BC-7B, 02-42-13-47-4B-57, 7A-79-19-0E-37-9F, 4C-D9-8F-C9-16-6D, 4C-D9-8F-C9-16-71, 4C-D9-8F-C9-16-70]
+06-06-2023 09:32:23.196 INFO [monitor-topology-pool-0] [] c.t.s.o.c.u.d.a(): list local interface macs: [02-42-09-29-BC-7B, 02-42-13-47-4B-57, 7A-79-19-0E-37-9F, 4C-D9-8F-C9-16-6D, 4C-D9-8F-C9-16-71, 4C-D9-8F-C9-16-70]
+06-06-2023 09:37:47.188 INFO [Thread-0] [] c.t.s.o.s.s.b(): Going to stop mongod which pid is 128
+06-06-2023 09:37:47.231 INFO [SpringApplicationShutdownHook] [] c.t.s.e.s.EcspTransporterStarter(): going to shutdown ecsp servers & executors
+06-06-2023 09:37:47.232 INFO [SpringApplicationShutdownHook] [] c.t.s.e.t.a.t.AbstractServer(): Close NettyUdpServer, bind /0.0.0.0:29810, export localhost/127.0.0.1:29810
+06-06-2023 09:37:47.240 INFO [SpringApplicationShutdownHook] [] c.t.s.e.t.a.t.AbstractServer(): Close NettyTcpServer, bind /0.0.0.0:29811, export localhost/127.0.0.1:29811
+06-06-2023 09:37:47.250 INFO [SpringApplicationShutdownHook] [] c.t.s.e.t.a.t.AbstractServer(): Close NettyTcpServer, bind /0.0.0.0:29812, export localhost/127.0.0.1:29812
+06-06-2023 09:37:47.260 INFO [SpringApplicationShutdownHook] [] c.t.s.e.t.a.t.AbstractServer(): Close NettyTcpServer, bind /0.0.0.0:29813, export localhost/127.0.0.1:29813
+06-06-2023 09:37:47.273 INFO [SpringApplicationShutdownHook] [] c.t.s.e.t.a.t.AbstractServer(): Close NettyTcpServer, bind /0.0.0.0:29814, export localhost/127.0.0.1:29814
+06-06-2023 09:37:47.279 INFO [manage-work-group-3] [] c.t.s.o.m.d.p.t.c(): Device 9C-A2-F4-D8-1E-E0 OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) changed to status CONNECTED_ERROR, which don't need to handle.
+06-06-2023 09:37:47.279 INFO [manage-work-group-2] [] c.t.s.o.m.d.p.t.c(): Device 9C-A2-F4-D8-1E-62 OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) changed to status CONNECTED_ERROR, which don't need to handle.
+06-06-2023 09:37:47.279 INFO [manage-work-group-4] [] c.t.s.o.m.d.p.t.c(): Device 1C-61-B4-FC-69-45 OmadacId(ea05e0ea6026f2f54adef31adc7f45ab) changed to status CONNECTED_ERROR, which don't need to handle.
+06-06-2023 09:37:47.280 INFO [SpringApplicationShutdownHook] [] c.t.s.e.t.a.t.AbstractServer(): Close NettyTcpServer, bind /0.0.0.0:29815, export localhost/127.0.0.1:29815
+06-06-2023 09:37:47.287 INFO [SpringApplicationShutdownHook] [] c.t.s.e.t.a.t.AbstractServer(): Close RttyNettyTcpServer, bind /0.0.0.0:29816, export localhost/127.0.0.1:29816
+06-06-2023 09:37:47.297 INFO [SpringApplicationShutdownHook] [] c.t.s.e.s.k(): going to shutdown ecsp thread pools.
+06-06-2023 09:37:47.321 INFO [SpringApplicationShutdownHook] [] c.t.s.r.p.b(): going to shutdown proxy executors
+06-06-2023 09:37:47.380 INFO [SpringApplicationShutdownHook] [] c.t.s.o.p.p.r.a.c(): shutdown nioEventLoopGroup when bean RadiusAcctService closed
+06-06-2023 09:37:47.613 INFO [SpringApplicationShutdownHook] [] c.t.s.e.p.b.a(): going to shutdown proxy executors
+06-06-2023 09:37:47.613 INFO [SpringApplicationShutdownHook] [] c.t.s.e.p.a(): going to shutdown proxy thread pools.
